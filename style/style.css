@@ -7,7 +7,7 @@
 
 * {
     background-color: var(--mainlight);
-    border: var(--maindark) 3px dotted;
+    /* border: var(--maindark) 3px dotted; */
     position: relative;
     font-family: 'Vidaloka', serif;
 
@@ -57,17 +57,18 @@ span {
 .nav-itm {
     flex: 1;
     width: 270px;
-    text-align: center;
 }
 
 .hv-nav {
-    position: relative;
     height: fit-content;
     width: 150px;
-    margin: 10px;
+    margin: 20px;
+    margin-left: 90px;
     text-align: center;
     vertical-align: middle;
     cursor: alias;
+    transition: bottom 1.5s, right 1.5s, border 1.5s, box-shadow 1.5s;
+
 
 }
 
@@ -82,15 +83,16 @@ span {
     position:absolute;
     left: 0px;
     top: 410px;
-    transition: border, top 1.5s;
+    transition: box-shadow 1.5s, border-radius 1.5s,  border 1.5s , top 1.5s;
     
 }
 .avatar:hover {
-    top: 305px;
+    top: 295px;
     border: 2px solid var(--maindark);
-    border-radius: 3px;
-    box-shadow: 3px 3px 3px #AA7BC3;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0px #AA7BC3;
 }
+
 .portfolio {
     flex: 1.5;
 
@@ -121,11 +123,8 @@ span {
     flex-direction: row;
     margin: 20px;
     height: 900px;
-    border-top: 2px solid var(--mainneon);
 
 }
-
-
 
 .abt-ttl, .pf-ttl, .ct-ttl {
     flex: 1;
@@ -165,6 +164,8 @@ span {
     height: 250px;
     border-radius: 4px;
     width: 100%;
+    transition: height 1s;
+    border: 3px solid var(--maindark);
 }
 
 .pf-cont img:hover {
@@ -206,4 +207,8 @@ span {
     transform: rotate(25deg);
     left: 50px;
     bottom: 250px;
+}
+
+@media screen {
+    
 }
