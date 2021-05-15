@@ -21,5 +21,51 @@ h1, h2, h3 {
 
 }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
 
+}
 
+.nav-itm {
+    margin: 5px ;
+    font-size: 30px;
+    margin-right: 100px;
+
+}
+
+.name {
+    margin-top: 470px;
+    margin-left: 10px;
+}
+
+.name-lrg {
+    font-size: 70px;
+    /* text-shadow: #FC0 1px 0 10px; */
+    /* text-shadow: 5px 5px var(--mainneon); */
+    margin-bottom: 0px;
+}
+.name-p {
+    margin-top: 2px;
+}
+
+.aboutme, .portfolio, .contact {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    height: 900px;
+
+}
+
+.abt-ttl, .pf-ttl, .ct-ttl {
+    flex: 1;
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    
+}
+
+.abt-cont, .pf-cont, .ct-cont {
+    flex:85%;
+}
