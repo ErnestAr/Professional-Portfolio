@@ -1,0 +1,25 @@
+:root {
+    --maindark: #4D4848;
+    --mainneon: #AA7BC3;
+    --mainlight: #f6f8ff;
+
+}
+
+* {
+    background-color: var(--maindark);
+    border: var(--mainlight) 3px dotted;
+}
+
+p {
+    color: var(--mainlight);
+    font-family: 'Roboto', sans-serif;
+
+}
+h1, h2, h3 {
+    font-family: 'Vidaloka', serif;
+    color: var(--mainneon);
+
+}
+
+
+
