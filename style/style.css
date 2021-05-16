@@ -44,7 +44,7 @@ nav {
     flex-direction: row;
     padding: auto;
     height: 80px;
-    justify-content: center;
+    justify-content: flex-end;
     
     
 }
@@ -56,7 +56,8 @@ span {
 
 .nav-itm {
     flex: 1;
-    width: 270px;
+    height: fit-content;
+    width: 220px;
 }
 
 .hv-nav {
@@ -67,7 +68,7 @@ span {
     text-align: center;
     vertical-align: middle;
     cursor: alias;
-    transition: bottom 1.5s, right 1.5s, border 1.5s, box-shadow 1.5s;
+    transition: bottom 0.5s, right 0.5s, border 0.5s, box-shadow 0.5s;
 
 
 }
@@ -75,19 +76,19 @@ span {
 .hv-nav:hover {
     box-shadow: 10px 5px 0px  #AA7BC3;
     border: 2px solid var(--maindark);
-    bottom: 5px;
+    bottom: 10px;
     right: 5px;
 }
 
 .avatar {
     position:absolute;
     left: 0px;
-    top: 410px;
+    top: 440px;
     transition: box-shadow 1.5s, border-radius 1.5s,  border 1.5s , top 1.5s;
     
 }
 .avatar:hover {
-    top: 295px;
+    top: 335px;
     border: 2px solid var(--maindark);
     border-radius: 5px;
     box-shadow: 10px 10px 0px #AA7BC3;
@@ -104,7 +105,7 @@ span {
 
 
 .name {
-    margin-top: 450px;
+    margin-top: 490px;
     margin-left: 10px;
 }
 
