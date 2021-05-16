@@ -331,4 +331,11 @@ p {
     border: 1px solid var(--maindark);
     border-radius: 3px;
   }
+  p {
+    margin-bottom: 20px;
+  }
+  .abt-ttl, .pf-ttl, .ct-ttl {
+   border-right: none;
+}
+
 }
