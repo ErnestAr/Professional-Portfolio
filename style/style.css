@@ -109,6 +109,7 @@ a {
     border-radius: 3px;
     transition: box-shadow 1s, border 1s, right 1s, top 1s;
     border: 2px solid var(--maindark);
+    cursor: pointer;
     
 
 }
@@ -278,9 +279,7 @@ a {
 }
 
 
-
-
-/* Large devices (laptops/desktops, 992px and up) */
+/* Smaller  devices (tablets/smartphones, 992px and below) */
 @media only screen and (max-width: 992px) {
     * {text-align: center; align-items: center;}
     nav {flex-direction: column; height: fit-content;}
@@ -292,12 +291,10 @@ a {
     .aboutme, .portfolio, .contact {flex-direction: column; width: 100%;}
     .pjct-1, .pjct-2, .pjct-3 {flex-direction: column;}
     .info-list { flex-wrap: nowrap; flex-direction: column; width:fit-content }
-    #git, #eml, #cell, #linkt, #fb {width: 100%; height: fit-content; }
     .ct-ttl {text-align: center; margin: 0px; padding: 0px;}
     .pjct-1 .pjct-img, .pjct-2 .pjct-img, .pjct-3 .pjct-img {width: 100%; opacity: 1;} 
-    .info-list ul>* {width: 100px; margin: 10px 0px ;}
-
-
+    .info-list {padding: 0px 0px 0px 0px;}
+    #git, #eml, #cell, #linkt, #fb {width: 100%; height: fit-content; }
 }
 
 

@@ -1,3 +1,6 @@
 # Professional-Portfolio-Homework-Project-2
  Professional portfolio homework project Due Tue Week 2
- Link to GitHub deployed web page:
+ Link to GitHub deployed web page: https://ernestar.github.io/Professional-Portfolio-Homework-Project-2/
+ Screenshot of the website:
+
+ 
