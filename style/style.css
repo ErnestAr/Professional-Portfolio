@@ -6,7 +6,6 @@
 
 * {
   background-color: var(--mainlight);
-  /* border: var(--maindark) 3px dotted; */
   position: relative;
   font-family: "Vidaloka", serif;
 }
@@ -73,6 +72,11 @@ a {
   color: var(--maindark);
 }
 
+/*
+Styling below is responsible for nav bar
+  and header portion of the website
+  including nav bar avatar and name
+  */
 .nav-itm {
   height: fit-content;
   width: 200px;
@@ -124,13 +128,12 @@ a {
   margin-top: 2px;
 }
 
-.portfolio {
-  flex: 1.5;
-}
-.aboutme,
-.contact {
-  flex: 1;
-}
+/* 
+Styking below is responsible for body of the website
+  including about me portfolio and contact sections.
+  Styling of sections falls in order (styling that
+  applies to and sections goes first
+*/
 
 .aboutme,
 .portfolio,
@@ -140,10 +143,12 @@ a {
   margin: 20px;
 }
 
+.aboutme,
 .contact {
-  margin-top: 20px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  flex: 1;
+}
+.portfolio {
+  flex: 1.5;
 }
 
 .abt-ttl,
@@ -210,6 +215,12 @@ p {
   margin-top: 20px;
 }
 
+.contact {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
 .info-list {
   display: flex;
   flex-direction: row;
@@ -245,7 +256,9 @@ p {
   border-radius: 3px;
 }
 
-/* Smaller  devices (tablets/smartphones, 992px and below) */
+/* 
+Smaller  devices (tablets/smartphones, 992px and below)
+ */
 @media only screen and (max-width: 992px) {
   * {
     text-align: center;
@@ -334,8 +347,9 @@ p {
   p {
     margin-bottom: 20px;
   }
-  .abt-ttl, .pf-ttl, .ct-ttl {
-   border-right: none;
-}
-
+  .abt-ttl,
+  .pf-ttl,
+  .ct-ttl {
+    border-right: none;
+  }
 }
