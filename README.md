@@ -7,6 +7,7 @@
  5. Menu items in the navigation bar link to different parts of the webpage.
  6. If cursor is 'poiter' you can hover over the image or icon to see transition.
  7. Image are random and are collected from open sourse webpages.
+ 8. LinkedIn and  Facebook links are not set up as I don't have accounts.
 
 
  -  ## Screenshots of the website:
