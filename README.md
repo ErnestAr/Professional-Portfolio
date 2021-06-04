@@ -1,4 +1,4 @@
-# Professional-Portfolio-Homework-Project-2
+# Professional-Portfolio
 - ## Info
  1. Link to GitHub deployed web page: https://ernestar.github.io/Professional-Portfolio-Homework-Project-2/
  2. The website was created on the basis of example from the Homework file with additional features.
