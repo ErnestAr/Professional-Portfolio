@@ -12,15 +12,16 @@ pjct1.on("click", function (event) {
         pjct1.attr("id", "off");
         $(".hide").css("display", "none");
         $(".rmore").css("display", "inline");
-        $(".pjct-1").children().eq(0).children().eq(5).attr("style", " display: none; ")
+        $(".pjct-1").children().eq(0).children().eq(5).removeClass("tlsshow");
+        $(".pjct-1").children().eq(0).children().eq(5).addClass("tools");
     } else if (onoff==="off") {
         pjct1.children().eq(1).height('500px');
         pjct1.children().eq(0).css("height", "500px");
         pjct1.attr("id", "on");
         $('.hide').css("display", "inline");
-        // $('.hide1').css("border-bottom", "3px solid var(--mainneon)");
         $(".rmore").css("display", "none");
-        $(".pjct-1").children().eq(0).children().eq(5).attr("style", "border-top: 3px solid var(--mainneon); display: block; height:fit-content;")
+        $(".pjct-1").children().eq(0).children().eq(5).removeClass("tools");
+        $(".pjct-1").children().eq(0).children().eq(5).addClass("tlsshow");
     }
 
 })
