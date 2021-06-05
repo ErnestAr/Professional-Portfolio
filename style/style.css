@@ -42,10 +42,14 @@ h2 {
   font-size: 40px;
 }
 
+
 p {
   font-size: 20px;
   font-weight: 400;
-  text-indent: 50px;
+  overflow: hidden;
+  color: var(--maindark);
+  font-family: "Roboto", sans-serif;
+
 }
 
 span {
@@ -53,10 +57,8 @@ span {
   font-size: 30px;
 }
 
-p {
-  color: var(--maindark);
-  font-family: "Roboto", sans-serif;
-}
+
+
 
 h1,
 h2,
@@ -171,6 +173,8 @@ Styling below is responsible for body of the website
   flex: 1;
   display: flex;
   flex-direction: row;
+  height: 300px;
+  overflow: hidden;
 }
 
 .pf-cont {
@@ -185,18 +189,26 @@ Styling below is responsible for body of the website
   margin: 10px;
   margin-top: 0px;
   object-fit: cover;
+  width: 500px;
   height: 300px;
   border-radius: 4px;
-  width: 100%;
-  transition: height 1s;
+  transition: 0.5s ease;
   border: 3px solid var(--maindark);
   cursor: pointer;
+  
 }
 
-.pf-cont img:hover {
+
+/* .pf-cont img:hover {
+  opacity: 1.0;
+  margin: 10px;
+  flex: 3;
   height: 500px;
-  opacity: 1;
-}
+  border-radius: 4px;
+  width: 500px;
+  border: 3px solid var(--maindark);
+  cursor: pointer;
+} */
 
 .pf-cont .pjct-text {
   flex: 1;
@@ -206,15 +218,15 @@ Styling below is responsible for body of the website
 .pjct-text {
   justify-content: flex-start;
   margin: 0px 20px;
+  height: 300px;
+  overflow: hidden;
 }
 
 .pjct-text h3,
 p {
   margin: 0px;
 }
-.pjct-text p {
-  margin-top: 20px;
-}
+
 
 .contact {
   margin-top: 20px;
@@ -315,11 +327,6 @@ Smaller  devices (tablets/smartphones, 992px and below)
     margin: 0px;
     padding: 0px;
   }
-  .pjct-img {
-    width: 100%;
-    opacity: 1;
-    margin-bottom: 20px;
-  }
   .contact .ct-cont .info-list {
     flex-direction: column;
     height: 100%;
@@ -354,4 +361,29 @@ Smaller  devices (tablets/smartphones, 992px and below)
   .ct-ttl {
     border-right: none;
   }
+}
+
+.hide {
+  display: none;
+}
+
+.rmore {
+  display: inline;
+  font-size: 14;
+  text-decoration: underline 3px var(--mainneon);
+}
+
+.tools {
+  display: none;
+}
+
+.skill {
+  display: inline-block;
+  height: fit-content;
+  width: fit-content;
+  margin: 0px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 3px ;
+  border: var(--maindark) 1px solid;
 }
