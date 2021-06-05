@@ -208,9 +208,8 @@ Styling below is responsible for body of the website
 
 .pjct-text {
   justify-content: flex-start;
-  margin: 0px 0px;
+  margin: 0px 0px 0px 0px;
   height: 300px;
-  overflow: hidden;
   cursor: pointer;
 }
 
@@ -261,6 +260,55 @@ p {
   border: 1px solid var(--maindark);
   border-radius: 3px;
 }
+
+
+.hide {
+  display: none;
+}
+
+.rmore {
+  display: inline;
+  font-size: 14;
+  text-decoration: underline 3px var(--mainneon);
+}
+
+.tools {
+  display: none;
+}
+
+.tlsshow {
+  border-top: 3px solid var(--mainneon);
+  display: block; 
+  height:fit-content; 
+  margin-top: 10px; 
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.skill {
+  display: inline-block;
+  height: fit-content;
+  width: fit-content;
+  margin: 0px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 3px ;
+  border: var(--maindark) 1px solid;
+}
+
+.gitlink {
+  display: block; 
+  margin-top: 10px;  
+  font-size: 20px;
+  border-top: 3px solid var(--mainneon);
+  color: #4d48488f;
+}
+
+.gitlink:hover {
+  color: #4d4848;
+}
+
+
 
 /* 
 Smaller  devices (tablets/smartphones, 992px and below)
@@ -355,50 +403,4 @@ Smaller  devices (tablets/smartphones, 992px and below)
   .ct-ttl {
     border-right: none;
   }
-}
-
-.hide {
-  display: none;
-}
-
-.rmore {
-  display: inline;
-  font-size: 14;
-  text-decoration: underline 3px var(--mainneon);
-}
-
-.tools {
-  display: none;
-}
-
-.tlsshow {
-  border-top: 3px solid var(--mainneon);
-  display: block; 
-  height:fit-content; 
-  margin-top: 10px;
-  padding-top: 5px;
-}
-
-.skill {
-  display: inline-block;
-  height: fit-content;
-  width: fit-content;
-  margin: 0px;
-  margin-top: 5px;
-  margin-right: 5px;
-  border-radius: 3px ;
-  border: var(--maindark) 1px solid;
-}
-
-.gitlink {
-  display: block; 
-  margin-top: 5px;  
-  font-size: 20px;
-  border-top: 3px solid var(--mainneon);
-  opacity: 0.6;
-}
-
-.gitlink:hover {
-  opacity: 1.0;
-}
 
