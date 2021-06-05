@@ -113,8 +113,8 @@ Styling below is responsible for nav bar
   border: 2px solid var(--maindark);
   cursor: pointer;
   box-shadow: 10px 10px var(--mainneon);
-  top: 330px;
-  right: 1270px;
+  left: 10px;
+  bottom: 150px;
 }
 
 .name {
@@ -199,16 +199,7 @@ Styling below is responsible for body of the website
 }
 
 
-/* .pf-cont img:hover {
-  opacity: 1.0;
-  margin: 10px;
-  flex: 3;
-  height: 500px;
-  border-radius: 4px;
-  width: 500px;
-  border: 3px solid var(--maindark);
-  cursor: pointer;
-} */
+
 
 .pf-cont .pjct-text {
   flex: 1;
@@ -217,9 +208,10 @@ Styling below is responsible for body of the website
 
 .pjct-text {
   justify-content: flex-start;
-  margin: 0px 20px;
+  margin: 0px 0px;
   height: 300px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .pjct-text h3,
@@ -301,10 +293,11 @@ Smaller  devices (tablets/smartphones, 992px and below)
   }
   .avatar {
     position: static;
-    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 10px 10px var(--mainneon);
-    top: 330px;
-    right: 1270px;
+    
+    
   }
   .aboutme,
   .portfolio,
@@ -316,6 +309,7 @@ Smaller  devices (tablets/smartphones, 992px and below)
   .pjct-2,
   .pjct-3 {
     flex-direction: column;
+    
   }
   .info-list {
     flex-direction: column;
