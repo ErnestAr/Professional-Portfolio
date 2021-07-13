@@ -12,10 +12,10 @@
 1. Javascript
 2. HTML
 3. CSS
-4. Tailwind
-5. jQuery
-6. Iconfy
-7. Google fonts
+4. jQuery
+6. Google fonts
+7. Python
+8. Flask
 ## Collabarations:
 Solo project
 ## License:
@@ -28,7 +28,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  
 ## Website's Deployed link:
-* https://ernestar.github.io/Professional-Portfolio/
+* https://ernestarutiuniandev.herokuapp.com/
  
  
  -  ## Screenshots of the website:
