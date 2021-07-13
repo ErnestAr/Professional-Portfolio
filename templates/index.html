@@ -1,18 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ernest Arutiunian Portfolio</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Vidaloka&display=swap" rel="stylesheet">
-    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-    <link rel="stylesheet" href="./style/style.css">
-    <head>
-    <body>
+{% extends 'base.html' %}
+
+
+{% block head %}
+<title>Ernest Arutiunian Portfolio</title>
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Vidaloka&display=swap" rel="stylesheet">
+<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
         <!-- Header of the page, nav bar, name, avatar -->
         <header>
             <nav>
@@ -26,12 +25,12 @@
                     <h3 class="hv-nav"><a href="#contact">Contact</a></h3>
                 </div>
                 <div class="nav-itm">
-                    <h3 class="hv-nav"><a href="./resources/Resume.pdf">Resume</a></h3>
+                    <h3 class="hv-nav"><a href="../static/resources/Resume.pdf">Resume</a></h3>
                 </div>
             </nav>
             
             <div class="name">
-                <img class="avatar" src="./resources/AvatarMaker (2).png" alt="Avatar">
+                <img class="avatar" src="../static/resources/AvatarMaker (2).png" alt="Avatar">
                 <h1 class="name-lrg">Ernest Arutiunian</h1>
                 <h3 class="name-undr">Software Developer</h3>
             </div>
@@ -73,12 +72,10 @@
                                 <p class="skill">Bootstrap</p>
                                 <p class="skill">Tailwind CSS</p>
                                 <p class="skill">Charts.js</p>
-
-
                                 <a class ="gitlink" href="https://github.com/ErnestAr/Trade_Guide">GitHub Repository</a>
                             </div>
                         </div>
-                        <img class="pjct-img  img1"  src="./resources/Screenshot 2021-06-04 203351.png" alt="Project 1 Image" >
+                        <img class="pjct-img  img1"  src="../static/resources/Screenshot 2021-06-04 203351.png" alt="Project 1 Image" >
                     </div>
                     <div class="pjct-2 opn" name="off">
                         <div class="pjct-text">
@@ -98,7 +95,7 @@
                                 <a class ="gitlink" href="https://github.com/ErnestAr/Cooding-Tool-Hub">GitHub Repository</a>
                             </div>
                         </div>
-                        <img class="pjct-img img2"  src="./resources/Screenshot 2021-07-06 195036.png" alt="Project 1 Image" >
+                        <img class="pjct-img img2"  src="../static/resources/Screenshot 2021-07-06 195036.png" alt="Project 1 Image" >
                     </div>
                     <div class="pjct-3 opn" name="off">
                         <div class="pjct-text" >
@@ -113,7 +110,7 @@
                                 <a class ="gitlink" href="https://github.com/ErnestAr/Weather_Forecast">GitHub Repository</a>
                             </div>
                         </div>
-                        <img class="pjct-img img3"  src="./resources/Screenshot 2021-06-04 203323.png" alt="Project 1 Image" >
+                        <img class="pjct-img img3"  src="../static/resources/Screenshot 2021-06-04 203323.png" alt="Project 1 Image" >
                     </div>
                 </div>
             </section>
@@ -142,7 +139,5 @@
         
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
-        <script src="./script/script.js"></script>
-    </body>
-
-</html>
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+{% endblock %}
