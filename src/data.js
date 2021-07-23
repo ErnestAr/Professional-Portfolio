@@ -69,3 +69,4 @@ export const skills = [
   "Bootstrap",
   "TailWind CSS"
 ];
+
