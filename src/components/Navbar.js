@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <header className="bg-gray-800  top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row justify-end">
-        <nav className=" md:ml-4 md:py-1 md:pl-4 	flex flex-wrap items-center text-base justify-end">
+      <nav className="	flex flex-wrap items-center text-base justify-center">
           <a href="#projects" className="mr-5 hover:text-white">
             About
           </a>
