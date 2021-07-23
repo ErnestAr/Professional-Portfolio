@@ -1,4 +1,3 @@
-/* Global and general styling of the page */
 :root {
   --maindark: #4d4848;
   --mainneon: #aa7bc3;
@@ -403,5 +402,4 @@ Smaller  devices (tablets/smartphones, 992px and below)
   .ct-ttl {
     border-right: none;
   }
-
 }
