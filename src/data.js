@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "Express and Handlebars",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
+    image: "./project-1.png",
     link: "https://reactbootcamp.com",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "React and Python",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
+    image: "./project-2.png",
     link: "https://reactbootcamp.com",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "React and Firebase",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
+    image: "./project-3.png",
     link: "https://reactbootcamp.com",
   },
 ];
