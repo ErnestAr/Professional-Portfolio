@@ -10,7 +10,7 @@ export default function About() {
           </h1>
           <h3 className=" text-xl mb-4 font-medium text-white">  Full-Stack Developer | Web Developer  </h3>
           <p className="mb-8 leading-relaxed">
-            I am a Full-Stack Developer with a focus on the front-end. I have experience working with a MERN framework, React, Redux, and Node.js as well as Python, Django, and Flask.
+            Hey there! My name is Ernest, I am a Full-Stack Developer from Ontario, Canada and I love coding. I have experience working with a MERN framework, React, Redux, and Node.js as well as Python, Django, and Flask.
           </p>
           <div className="flex justify-center">
             <a
