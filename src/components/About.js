@@ -15,7 +15,7 @@ export default function About() {
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              className="inline-flex text-white bg-indigo-700 border-0 py-2 px-6 focus:outline-none hover: rounded text-lg">
               Work With Me
             </a>
             <a
@@ -29,7 +29,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./coding.svg"
+            src="./coding-1.svg"
           />
         </div>
       </div>

@@ -26,15 +26,15 @@ export default function Skills() {
           {skills.map((skill) => (
             <div key={skill} className="p-2  w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                 {skill === "Python 3"  ? <FaPython className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />: ""}
-                 {skill === "JavaScript"  ? <DiJavascript1 className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />: ""}
-                 {skill === "React"  ? <FaReact className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />: ""}
-                 {skill === "MySQL"  ? <SiMysql className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />: ""}
-                 {skill === "MongoDB"  ? <DiMongodb className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />: ""}
-                 {skill === "Node JS"  ? <FaNodeJs className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />: ""}
-                 {skill === "GraphQL"  ? <SiGraphql className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />: ""}
-                 {skill === "Bootstrap"  ? <FaBootstrap className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />: ""}
-                 {skill === "TailWind CSS"  ? <SiTailwindcss className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />: ""}
+                 {skill === "Python 3"  ? <FaPython className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />: ""}
+                 {skill === "JavaScript"  ? <DiJavascript1 className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />: ""}
+                 {skill === "React"  ? <FaReact className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />: ""}
+                 {skill === "MySQL"  ? <SiMysql className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />: ""}
+                 {skill === "MongoDB"  ? <DiMongodb className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />: ""}
+                 {skill === "Node JS"  ? <FaNodeJs className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />: ""}
+                 {skill === "GraphQL"  ? <SiGraphql className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />: ""}
+                 {skill === "Bootstrap"  ? <FaBootstrap className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />: ""}
+                 {skill === "TailWind CSS"  ? <SiTailwindcss className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />: ""}
                 <span className="title-font font-medium text-white">
                   {skill}
                 </span>
