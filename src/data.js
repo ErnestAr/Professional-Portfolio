@@ -16,12 +16,12 @@ export const projects = [
     link: "https://github.com/ErnestAr/Trade_Guide",
   },
   {
-    title: "Project 3",
-    subtitle: "React and ExpressJs",
+    title: "ResumeHacker",
+    subtitle: "React, Material UI and ExpressJs",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius orem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "ResumeHacker allows new and experienced software developers to create interactive web-based resumes. The application uses  React and Material UI to give users an intuitive and simple way to accomplish that goal.",
     image: "./project-3.png",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/ErnestAr/ResumeHacker",
   },
 ];
 
