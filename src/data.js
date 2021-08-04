@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "ExpressJs and Handlebars",
     description:
       '"Coding Tool Hub "is a web based application that allows developers to  share technologies they have designed to simplify the process of software engineering and for users to browse and save available technologies to  make faster progress and be more efficient in their work. ',
-    image: "./project-1.png",
+    image: "./project-3.png",
     link: "https://github.com/ErnestAr/Cooding-Tool-Hub",
   },
   {
