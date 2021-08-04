@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "ExpressJs and Handlebars",
     description:
       '"Coding Tool Hub "is a web based application that allows developers to  share technologies they have designed to simplify the process of software engineering and for users to browse and save available technologies to  make faster progress and be more efficient in their work. ',
-    image: "./project-3.png",
+    image: "./project-2.png",
     link: "https://github.com/ErnestAr/Cooding-Tool-Hub",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "Bootstrap and API",
     description:
       "Trade Guide is a web application intended to simplify learning experience for users intrested in investing. The application allows you to access information about different investment possibilities within user friendly interface and provides up to date text informaiton and visuals to better your learning experience.",
-    image: "./project-2.png",
+    image: "./project-1.png",
     link: "https://github.com/ErnestAr/Trade_Guide",
   },
   {
